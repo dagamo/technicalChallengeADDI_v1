@@ -25,8 +25,6 @@ export const LeadCardContainer = ({
     setScore,
     setProspect
   );
-  console.log("*validation isRegistry", statusRegistry);
-  console.log("*validation has juditial records", statusJuditialRecords);
   return (
     <LeadCard
       {...item}

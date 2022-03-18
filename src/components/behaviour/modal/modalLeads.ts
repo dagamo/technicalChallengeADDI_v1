@@ -12,10 +12,11 @@ export class ModalLeads extends ModalLeadsAbstract<ILead> {
   constructor(
     leads: ILead[],
     renderItem: (item: ILead, index: number) => ReactNode,
-    setNewProspects: () => void
+    setNewProspects: () => void,
+    setOpenModal: (active: boolean) => void
   ) {
     super();
-    this.addLeadsButton = new AddLeadsButton(setNewProspects);
+    this.addLeadsButton = new AddLeadsButton(setNewProspects, setOpenModal);
     this.leadsTable = new LeadsTable(leads, renderItem);
   }
 }
