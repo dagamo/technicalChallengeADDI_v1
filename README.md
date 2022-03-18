@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -44,3 +46,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Run cypress
+To run the automated tests you must run the next command.
+### `npm run cypress:open`
+
+# Decisions
+- It took decitions to show the prospect users in a table and the lead users into modal for checking one by one validations.
+- The table has a button for adding more leads to prospects.
+- Add the lead trigger's status in the lead information table.
+
++ Assumptions
+- The backend works, the aplicatios simulate multiple requests.
+
