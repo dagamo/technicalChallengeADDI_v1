@@ -1,0 +1,32 @@
+.modal {
+  width: 100%;
+  position: fixed;
+  inset: 0;
+  background-color: #0000005d;
+  display: flex;
+  transition: transform 1.5s;
+}
+
+.modal__container {
+  border-radius: 5px;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  padding: 50px 50px;
+  background-color: white;
+  margin: auto;
+}
+
+.modal__close {
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  background: none;
+  top: 0;
+  right: 0;
+  text-align: center;
+  line-height: 40px;
+  color: black;
+  padding: 5px 20px;
+  font-size: 20px;
+}

@@ -1,0 +1,15 @@
+.member__container {
+  display: flex;
+  align-items: center;
+}
+
+.member__img {
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.member__text {
+  margin-left: 20px;
+}

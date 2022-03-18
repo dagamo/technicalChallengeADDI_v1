@@ -1,0 +1,4 @@
+export enum ProspectType {
+  ADD_PROSPECTS = "ADD_PROSPECTS",
+  UPDATE_PROSPECTS = "UPDATE_PROSPECTS",
+}

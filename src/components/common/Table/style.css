@@ -1,0 +1,57 @@
+.container-table {
+  background-color: white;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 5px;
+  color: black;
+  overflow: auto;
+}
+.datatable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.datatable th,
+td {
+  padding: 12px 12px;
+}
+
+.datatable th {
+  font-weight: bolder;
+  text-align: left;
+  border-bottom: solid 1px rgb(226, 226, 226);
+}
+
+.datatable td {
+  border-bottom: solid 1px rgb(226, 226, 226);
+}
+
+.datatable tbody tr:nth-child(even) {
+  background-color: rgb(226, 226, 226);
+}
+
+.datatable tbody tr:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.datatable .available::after {
+  display: inline-block;
+  vertical-align: middle;
+}
+.datatable .available::after {
+  content: "Available";
+  color: green;
+}
+
+.datatable tbody tr .available::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.datatable tbody tr .available::before {
+  background-color: green;
+}
