@@ -9,6 +9,7 @@ import { ProspectType } from "../types/prospectTypesReducer";
 export interface IProspectsScreenContext {
   leads: ILead[];
   prospects: IPropspect[];
+  newProspects: IPropspect[];
   setProspect: (prospect: IPropspect) => void;
   setNewProspects: () => void;
   getProspects: () => Promise<void>;
@@ -18,6 +19,7 @@ export interface IProspectsScreenContext {
 export const ProspectsScreenContext = createContext<IProspectsScreenContext>({
   leads: [],
   prospects: [],
+  newProspects: [],
   setProspect: (prospect: IPropspect) => {},
   setNewProspects: () => {},
   getProspects: async () => {},
@@ -43,6 +45,7 @@ export const ProspectsScreenProvider = ({
     <ProspectsScreenContext.Provider
       value={{
         prospects,
+        newProspects,
         leads,
         getProspects,
         getLeads,

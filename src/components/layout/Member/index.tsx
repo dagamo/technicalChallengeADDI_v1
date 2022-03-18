@@ -1,7 +1,13 @@
-import React from "react";
 import "./style.css";
+interface IMember {
+  firstName: string;
+  lastName: string;
+  email: string;
+  birthdate: string;
+  thumbnailUrl: string;
+}
 
-const Member = (props: any) => {
+const Member = (props: IMember) => {
   const { firstName, lastName, email, birthdate, thumbnailUrl } = props;
 
   return (

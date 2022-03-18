@@ -9,6 +9,7 @@ import { ModalLeadsAbstract } from "./modalLeadsAbstract";
 export class ModalLeads extends ModalLeadsAbstract<ILead> {
   public leadsTable: TableBehaviour<ILead>;
   public addLeadsButton: Button;
+
   constructor(
     leads: ILead[],
     renderItem: (item: ILead, index: number) => ReactNode,
