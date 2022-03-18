@@ -52,6 +52,9 @@ To run the automated tests you must run the next command.
 ### `npm run cypress:open`
 
 # Decisions
+- Cypress to make automated tests E2E.
+- Lodash to manage arrays.
+- React to principal librery for web app.
 - It took decitions to show the prospect users in a table and the lead users into modal for checking one by one validations.
 - The table has a button for adding more leads to prospects.
 - Add the lead trigger's status in the lead information table.
