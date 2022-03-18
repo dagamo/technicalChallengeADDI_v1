@@ -21,7 +21,6 @@ export const prospectReducer = (
 ) => {
   switch (action.type) {
     case ProspectType.ADD_PROSPECTS: {
-      console.log("*validation adding prospects", action.payload);
       return [...state, ...action.payload];
     }
 

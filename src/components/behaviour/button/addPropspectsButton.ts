@@ -9,7 +9,7 @@ export class AddPropspectButton extends Button {
     super();
     this.setOpenModal = setOpenModal;
     this.getLeads = getLeads;
-    this.text = "Add Propspects";
+    this.text = "Add Prospects";
   }
   public onClick = () => {
     this.setOpenModal(true);

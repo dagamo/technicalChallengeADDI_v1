@@ -33,7 +33,8 @@ export const ProspectPage = () => {
   const leadsModalBehaviour = new ModalLeadsBehaviour(
     leads,
     renderItemLead,
-    setNewProspects
+    setNewProspects,
+    setOpenModal
   );
 
   return (
