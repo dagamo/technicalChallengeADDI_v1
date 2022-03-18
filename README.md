@@ -56,6 +56,6 @@ To run the automated tests you must run the next command.
 - The table has a button for adding more leads to prospects.
 - Add the lead trigger's status in the lead information table.
 
-+ Assumptions
+# Assumptions
 - The backend works, the aplicatios simulate multiple requests.
 
