@@ -16,9 +16,9 @@ export class LeadsTable extends TableBehaviour<ILead> {
       "Email",
       "First Name",
       "Last Name",
-      "Birthname",
-      "Is Registry",
-      "Has Juditial Records",
+      "Birth Date",
+      "Registry Identification",
+      "Juditial Records",
       "Score",
       "",
     ];

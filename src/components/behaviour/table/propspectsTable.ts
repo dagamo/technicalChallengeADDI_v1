@@ -11,7 +11,13 @@ export class PropspectsTable extends TableBehaviour<IPropspect> {
     renderItem: (item: IPropspect, index: number) => ReactNode
   ) {
     super();
-    this.columns = ["Members", "Email", "First Name", "Last Name", "Birthname"];
+    this.columns = [
+      "Members",
+      "Email",
+      "First Name",
+      "Last Name",
+      "Birth Date",
+    ];
     this.data = data;
     this.renderItem = renderItem;
   }
